@@ -30,10 +30,18 @@ h1, h2, h3, h4, h5, h6, p {
 
 
 .wrapper {
+    /*width: 100%;*/
     width: 2000px;
     margin: 0 auto;
     background-color: #f5edeb;
 }
+
+/*#hero {*/
+/*    width: 2000px;*/
+/*    display: flex;*/
+/*    justify-content: space-evenly;*/
+/*    align-items: center;*/
+/*}*/
 
 nav {
     height: 95px;
@@ -45,10 +53,6 @@ nav {
     padding: 50px;
 }
 
-.navbar {
-    width: 100%;
-}
-
 /*this*/
 .links {
     width: 100%;
@@ -56,11 +60,14 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
 .links a {
     text-decoration: none;
     color: black;
+    font-size: 35px;
     /*font-family: "Roboto-Light";*/
     text-transform: uppercase;
 }
@@ -244,6 +251,29 @@ footer {
     align-items: center;
     justify-content: center;
     border-radius: 50px;
+    background-image: url("./images/image2.jpg");
+}
+
+.box:hover {
+    /*cursor: pointer;*/
+    opacity: 0.5;
+    /*how to make the text not go transparent*/
+}
+
+#illust {
+    background-image: url("./images/images.jpg");
+}
+
+#concept {
+    background-image: url("./images/images.jpg");
+}
+
+#ani {
+    background-image: url("./images/images.jpg");
+}
+
+#gamu {
+    background-image: url("./images/images.jpg");
 }
 
 .box a {
@@ -255,17 +285,22 @@ footer {
 
 .sub-menu {
     display: none;
+    list-style: none;
 }
 
 .item {
     width: 100%;
 }
 
+
 .menu-item:hover {
+    position: relative;
+    cursor: pointer;
     .sub-menu {
+        font-size: 30px;
+        margin: 1px;
         display: list-item;
         position: absolute;
-        padding-top: 15px;
         background-color: #c9c4b5;
         /*border: 50px #c9c4b5;*/
     }
@@ -274,3 +309,6 @@ footer {
 
 /*Dropdown END*/
 
+/*#illust {*/
+/*    background-image: url(../images/images.jpeg);*/
+/*}*/
