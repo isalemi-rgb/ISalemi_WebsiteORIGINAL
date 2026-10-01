@@ -9,7 +9,7 @@ let current_page = 1;
 function displayPage(){
     document.querySelector('img').src = "./hor_frames/hor_" + current_page + ".png"
     if(current_page===1){
-        document.querySelector('#left').style.opacity = '0.5';
+        document.querySelector('#left').style.opacity = '0.75';
         document.querySelector('#left').style.pointerEvents = 'none';
     }else{
         document.querySelector('#left').style.opacity = '1';
@@ -17,7 +17,7 @@ function displayPage(){
     }
 
     if(current_page===35){
-        document.querySelector('#right').style.opacity = '0.5';
+        document.querySelector('#right').style.opacity = '0.75';
         document.querySelector('#right').style.pointerEvents = 'none';
     }else{
         document.querySelector('#right').style.opacity = '1';
@@ -53,7 +53,7 @@ let current_pageANI = 1;
 function displayPageCONCEPT(){
     document.querySelector('img').src = "./conceptImages/ani" + current_pageANI + ".jpg"
     if(current_pageANI===1){
-        document.querySelector('#left').style.opacity = '0.5';
+        document.querySelector('#left').style.opacity = '0.75';
         document.querySelector('#left').style.pointerEvents = 'none';
     }else{
         document.querySelector('#left').style.opacity = '1';
@@ -61,7 +61,7 @@ function displayPageCONCEPT(){
     }
 
     if(current_pageANI===3){
-        document.querySelector('#right').style.opacity = '0.5';
+        document.querySelector('#right').style.opacity = '0.75';
         document.querySelector('#right').style.pointerEvents = 'none';
     }else{
         document.querySelector('#right').style.opacity = '1';

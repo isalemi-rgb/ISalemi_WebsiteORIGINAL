@@ -13,9 +13,25 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 16px
 }
 
+#title {
+    margin-top: 20px;
+    text-align: center;
+}
+
 p {
     padding: 15px;
     text-align: center;
+}
+
+.artworkp {
+    padding-bottom: 150px;
+}
+
+footer span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 /*@font-face {*/
@@ -41,6 +57,11 @@ p {
     background-color: #f5edeb;
 }
 
+#mix img {
+    padding: 10px;
+    /*background-color: #EF767A;*/
+}
+
 /*#hero {*/
 /*    width: 2000px;*/
 /*    display: flex;*/
@@ -51,7 +72,7 @@ p {
 nav {
     height: 95px;
     width: 100%;
-    background-color: #c9c4b5;
+    background-color: #e2d2de;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
@@ -126,11 +147,11 @@ nav {
 .contentWrapper input {
     height: 81px;
     width: 500px;
-    border-color: #EF767A;
+    border-color: #e2d2de;
 }
 
 .contentWrapper button {
-    background-color: #EF767A;
+    background-color: #e2d2de;
     color: white;
     width: 246px;
     height: 76px;
@@ -178,7 +199,7 @@ nav {
 
 .footerWrapper {
     height: 75px;
-    background-color: #f8f8f8;
+    background-color: #b7a49c;
     /*font-family: "Roboto-Light";*/
 }
 
@@ -187,7 +208,7 @@ footer {
     height: 100%;
     margin: 0 auto;
     padding: 50px;
-    background-color: #c9c4b5;
+    background-color: #b7a49c;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -204,13 +225,13 @@ footer {
 .box {
     height: 150px;
     width: 150px;
-    background-color: #C9C4B5FF;
+    background-color: #e2d2de;
     font-size: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 50px;
-    background-image: url("./images/images.jpg");
+    /*background-image: url("./images/images.jpg");*/
     background-origin: border-box;
     background-position: center;
 }
@@ -221,7 +242,7 @@ footer {
     /*how to make the text not go transparent*/
 }
 
-#illust {
+/*#illust {
     background-image: url("./images/axis.png");
 }
 
@@ -235,7 +256,7 @@ footer {
 
 #gamu {
     background-image: url("./images/axis.png");
-}
+}*/
 
 .box a {
     text-decoration: none;
@@ -266,7 +287,7 @@ footer {
         margin: 1px;
         display: list-item;
         position: absolute;
-        background-color: #c9c4b5;
+        background-color: #e2d2de;
         /*border: 50px #c9c4b5;*/
     }
 
@@ -304,7 +325,7 @@ footer {
     height: 60px;
     width:60px;
     border-radius: 60px;
-    background-color: #EF767A;
+    background-color: #e2d2de;
     color: black;
     font-size: 24px;
     font-weight: bold;
