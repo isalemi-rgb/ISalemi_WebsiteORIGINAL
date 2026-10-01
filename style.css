@@ -269,9 +269,54 @@ footer {
 
 /*Dropdown END*/
 
+/*Unity game config*/
 #unity {
     height: 100vh;
 }
+
+/*Animation flipbook*/
+
+#flipbook {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width:60px;
+    border-radius: 60px;
+    background-color: #EF767A;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+#frame {
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:425px;
+    width:700px;
+    border-radius: 25px;
+    box-shadow: rgba(0 0 0 /0.39) 1px 5px 10px;
+}
+
+#hor {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Animation flipbook end*/
 
 /*#illust {*/
 /*    background-image: url(../images/images.jpeg);*/
