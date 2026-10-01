@@ -116,11 +116,12 @@ nav {
     /*margin-top: 50px;*/
     height: 300px;
     width: 100%;
-    background-color: antiquewhite;
+    /*background-color: antiquewhite;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url(../images/hero.png);
+    /*hero not showing up*/
+    background-image: url("./images/hero.png");
 }
 
 .contentWrapper {
