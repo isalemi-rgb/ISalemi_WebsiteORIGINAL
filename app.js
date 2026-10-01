@@ -41,3 +41,45 @@ document.querySelector('#right').addEventListener('click', ()=>{
 displayPage();
 
 //Flipbook end
+
+//if I change the left/right ids to be different from another
+//then the Concept one breaks, but like this
+//the Animation one is replaced
+
+//concept Flipbook
+
+let current_pageANI = 1;
+
+function displayPageCONCEPT(){
+    document.querySelector('img').src = "./conceptImages/ani" + current_pageANI + ".jpg"
+    if(current_pageANI===1){
+        document.querySelector('#left').style.opacity = '0.5';
+        document.querySelector('#left').style.pointerEvents = 'none';
+    }else{
+        document.querySelector('#left').style.opacity = '1';
+        document.querySelector('#left').style.pointerEvents = "auto"
+    }
+
+    if(current_pageANI===3){
+        document.querySelector('#right').style.opacity = '0.5';
+        document.querySelector('#right').style.pointerEvents = 'none';
+    }else{
+        document.querySelector('#right').style.opacity = '1';
+        document.querySelector('#right').style.pointerEvents = "auto"
+    }
+}
+
+document.querySelector('#left').addEventListener('click', ()=>{
+    current_pageANI--;
+    displayPageCONCEPT();
+    console.log("left")
+
+})
+
+document.querySelector('#right').addEventListener('click', ()=>{
+    current_pageANI++;
+    displayPageCONCEPT();
+    console.log("right")
+})
+
+displayPageCONCEPT();
