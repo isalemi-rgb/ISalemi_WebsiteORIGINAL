@@ -112,17 +112,6 @@ nav {
     /*font-family: "Roboto-Bold";*/
 }
 
-.hero {
-    /*margin-top: 50px;*/
-    height: 300px;
-    width: 100%;
-    /*background-color: antiquewhite;*/
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    /*hero not showing up*/
-    background-image: url("./images/hero.png");
-}
 
 .contentWrapper {
     min-height: 200px;
@@ -372,6 +361,18 @@ video {
     align-items: center;
     height:325px;
     flex-direction: column;
+}
+
+.hero {
+    /*margin-top: 50px;*/
+    height: 300px;
+    width: 100%;
+    /*background-color: antiquewhite;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /*hero not showing up*/
+    background-image: url("./images/hero.png");
 }
 
 /*Animation flipbook end*/
