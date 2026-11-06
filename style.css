@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
 }
 
@@ -292,14 +292,14 @@ footer {
 
 /*Animation flipbook*/
 
-#flipbook {
+#flipbookANI {
     height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#flipbookANI {
+#flipbookCON {
     height: 100%;
     width: 100%;
     display: flex;
@@ -322,17 +322,17 @@ footer {
     margin: 0 20px;
 }
 
-#frame {
+#frameANI {
     object-fit: contain;
     display: flex;
     justify-content: center;
     align-items: center;
-    height:425px;
-    width:700px;
+    height:700px;
+    width:425px;
     border-radius: 25px;
     box-shadow: rgba(0 0 0 /0.39) 1px 5px 10px;
 }
-#frameANI {
+#frameCON {
     object-fit: contain;
     display: flex;
     justify-content: center;
@@ -348,8 +348,13 @@ footer {
     justify-content: center;
     align-items: center;
 }
+#vam {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
 
-#anime {
+#draftsmanship {
     display: inline-block;
     justify-content: center;
     align-items: center;
