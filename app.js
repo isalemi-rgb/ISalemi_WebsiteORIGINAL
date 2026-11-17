@@ -49,7 +49,7 @@ displayPageANI();
 
 //concept Flipbook
 
-let current_pageCON = 3;
+let current_pageCON = 1;
 
 
 function displayPageCONCEPT(){
@@ -57,17 +57,19 @@ function displayPageCONCEPT(){
     if (conIMG) {
         conIMG.src = "./drtmshp/ani" + current_pageCON + ".jpg"
 
-        if(current_pageCON===3){
+        if(current_pageCON===1){
             document.getElementById('leftCON').style.opacity = '0.75';
             document.getElementById('leftCON').style.pointerEvents = 'none';
+            console.log(conIMG);
         }else{
             document.getElementById('leftCON').style.opacity = '1';
             document.getElementById('leftCON').style.pointerEvents = "auto"
         }
 
-        if(current_pageANI===1){
+        if(current_pageCON===3){
             document.getElementById('rightCON').style.opacity = '0.75';
             document.getElementById('rightCON').style.pointerEvents = 'none';
+            console.log(conIMG);
         }else{
             document.getElementById('rightCON').style.opacity = '1';
             document.getElementById('rightCON').style.pointerEvents = "auto"
@@ -78,14 +80,14 @@ function displayPageCONCEPT(){
 console.log(current_pageCON);
 
 document.getElementById('leftCON')?.addEventListener('click', ()=>{
-    current_pageCON++;
+    current_pageCON--;
     displayPageCONCEPT();
     console.log(current_pageCON + " " + "plus1_Left")
 
 })
 
 document.getElementById('rightCON')?.addEventListener('click', ()=>{
-    current_pageCON--;
+    current_pageCON++;
     displayPageCONCEPT();
     console.log(current_pageCON + " " + "minus1_Right")
 })
