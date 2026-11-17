@@ -322,6 +322,15 @@ footer {
     margin: 0 20px;
 }
 
+#rightANI {
+    background-color: #01566a;
+    color: white;
+}
+#leftANI {
+    background-color: #01566a;
+    color: white;
+}
+
 #frameANI {
     object-fit: contain;
     display: flex;
@@ -366,6 +375,20 @@ video {
     align-items: center;
     height:325px;
     flex-direction: column;
+}
+
+#vamTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pdf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100hv;
+    width:100v;
 }
 
 .hero {

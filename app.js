@@ -31,14 +31,12 @@ function displayPageANI(){
 document.getElementById('leftANI')?.addEventListener('click', ()=>{
     current_pageANI++;
     displayPageANI();
-    //console.log(current_pageANI)
 
 })
 
 document.getElementById('rightANI')?.addEventListener('click', ()=>{
     current_pageANI--;
     displayPageANI();
-    //console.log(current_pageANI)
 })
 
 displayPageANI();
@@ -60,7 +58,6 @@ function displayPageCONCEPT(){
         if(current_pageCON===1){
             document.getElementById('leftCON').style.opacity = '0.75';
             document.getElementById('leftCON').style.pointerEvents = 'none';
-            console.log(conIMG);
         }else{
             document.getElementById('leftCON').style.opacity = '1';
             document.getElementById('leftCON').style.pointerEvents = "auto"
@@ -69,7 +66,6 @@ function displayPageCONCEPT(){
         if(current_pageCON===3){
             document.getElementById('rightCON').style.opacity = '0.75';
             document.getElementById('rightCON').style.pointerEvents = 'none';
-            console.log(conIMG);
         }else{
             document.getElementById('rightCON').style.opacity = '1';
             document.getElementById('rightCON').style.pointerEvents = "auto"
@@ -82,14 +78,11 @@ console.log(current_pageCON);
 document.getElementById('leftCON')?.addEventListener('click', ()=>{
     current_pageCON--;
     displayPageCONCEPT();
-    console.log(current_pageCON + " " + "plus1_Left")
-
 })
 
 document.getElementById('rightCON')?.addEventListener('click', ()=>{
     current_pageCON++;
     displayPageCONCEPT();
-    console.log(current_pageCON + " " + "minus1_Right")
 })
 
 displayPageCONCEPT();
