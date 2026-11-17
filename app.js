@@ -86,3 +86,20 @@ document.getElementById('rightCON')?.addEventListener('click', ()=>{
 })
 
 displayPageCONCEPT();
+
+//ENNDDDDDDDDD
+
+
+
+//Contact Page button
+document.getElementById('submitBtn')?.addEventListener('click', ()=>{
+    let first = document.getElementById('first').value;
+    let last = document.getElementById('last').value;
+    let email = document.getElementById('eml').value;
+    let reason = document.getElementById('resn').value;
+
+    //console.log(first);
+    document.getElementById('first').innerHTML = "yo";
+    document.getElementById('submitDIV').style.marginTop = "20px";
+    document.getElementById('submitDIV').innerHTML = "Thank you! I'll get back to you shortly!"
+})

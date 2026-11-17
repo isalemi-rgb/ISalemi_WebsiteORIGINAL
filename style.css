@@ -253,6 +253,25 @@ footer {
     color: black;
 }
 
+#submitBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 200px;
+    height: 75px;
+    border-radius: 15px;
+    background-color: #e2d2de;
+    color: black;
+}
+
+#submitDIV {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
 /*Dropdown Menu*/
 
 .menu {
