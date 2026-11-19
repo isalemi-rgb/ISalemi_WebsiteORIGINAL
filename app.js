@@ -9,7 +9,7 @@ let current_pageANI = 3;
 function displayPageANI(){
     const vamIMG = document.getElementById("vam");
     if (vamIMG) {
-        vamIMG.src = "./vam_frames/vam_" + current_pageANI + ".png"
+        vamIMG.src = "./vam_frames/vam_" + current_pageANI + ".PNG"
         if(current_pageANI===3){
             document.getElementById('leftANI').style.opacity = '0.75';
             document.getElementById('leftANI').style.pointerEvents = 'none';
